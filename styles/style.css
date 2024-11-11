@@ -294,7 +294,6 @@ ol {
 .content__video-card-thumbnail {
   inline-size: 194px;
   block-size: 103px;
-  flex: 1;
   object-fit: cover;
   object-position: center;
 }
