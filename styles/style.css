@@ -242,6 +242,7 @@ ol {
   margin: 0 -3px;
 }
 
+
 .content__list-item:not(:last-child) {
   margin: 6px 0 34px;
 }
@@ -285,10 +286,13 @@ ol {
   line-height: 100%;
   text-transform: uppercase;
   padding: 2px 2px 6px;
-  text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+
+.content__video-card-description-container {
+  width: 50%;
 }
 
 .content__video-card-description {
@@ -311,5 +315,5 @@ ol {
   block-size: 103px;
   object-fit: cover;
   object-position: center;
-  margin: 0 -3px;
+  margin: 0 -2px;
 }
